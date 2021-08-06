@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleBox{
+    background-color: black;
+    color: red;
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+}
+.chessboard{
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+}
+.box{
+    height: 50px;
+    width: 50px;
+}
+.odd:nth-child(even){
+    background-color: red;
+}
+.odd:nth-child(odd){
+    background-color: blue;
+}
+.even:nth-child(even){
+    background-color: blue;
+}
+.even:nth-child(odd){
+    background-color: red;
+}
